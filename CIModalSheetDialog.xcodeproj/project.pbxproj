@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C4A478E147E51DD004701B7 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 7C4A478D147E51DD004701B7 /* README.markdown */; };
+		7C5AD576147E4C220003F590 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5AD575147E4C220003F590 /* Cocoa.framework */; };
+		7C5AD580147E4C220003F590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C5AD57E147E4C220003F590 /* InfoPlist.strings */; };
+		7C5AD582147E4C220003F590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5AD581147E4C220003F590 /* main.m */; };
+		7C5AD586147E4C220003F590 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5AD584147E4C220003F590 /* Credits.rtf */; };
+		7C5AD589147E4C220003F590 /* CIModalSheetDialogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5AD588147E4C220003F590 /* CIModalSheetDialogAppDelegate.m */; };
+		7C5AD58C147E4C220003F590 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5AD58A147E4C220003F590 /* MainMenu.xib */; };
+		7C718619147E4D100082B785 /* CIModalSheetDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C718618147E4D100082B785 /* CIModalSheetDialog.m */; };
+		7CF440E5147FB45500CA3203 /* faceleg_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7CF440E4147FB45500CA3203 /* faceleg_icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C4A478D147E51DD004701B7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		7C5AD571147E4C220003F590 /* CIModalSheetDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIModalSheetDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5AD575147E4C220003F590 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7C5AD578147E4C220003F590 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7C5AD579147E4C220003F590 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7C5AD57A147E4C220003F590 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C5AD57D147E4C220003F590 /* CIModalSheetDialog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CIModalSheetDialog-Info.plist"; sourceTree = "<group>"; };
+		7C5AD57F147E4C220003F590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C5AD581147E4C220003F590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C5AD583147E4C220003F590 /* CIModalSheetDialog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CIModalSheetDialog-Prefix.pch"; sourceTree = "<group>"; };
+		7C5AD585147E4C220003F590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7C5AD587147E4C220003F590 /* CIModalSheetDialogAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIModalSheetDialogAppDelegate.h; sourceTree = "<group>"; };
+		7C5AD588147E4C220003F590 /* CIModalSheetDialogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIModalSheetDialogAppDelegate.m; sourceTree = "<group>"; };
+		7C5AD58B147E4C220003F590 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7C718616147E4D010082B785 /* CIModalSheetDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIModalSheetDialog.h; sourceTree = "<group>"; };
+		7C718618147E4D100082B785 /* CIModalSheetDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIModalSheetDialog.m; sourceTree = "<group>"; };
+		7CF440E4147FB45500CA3203 /* faceleg_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = faceleg_icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C5AD56E147E4C220003F590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5AD576147E4C220003F590 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C1896A6147E4C7D00270AD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C718618147E4D100082B785 /* CIModalSheetDialog.m */,
+				7C718616147E4D010082B785 /* CIModalSheetDialog.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7C5AD566147E4C210003F590 = {
+			isa = PBXGroup;
+			children = (
+				7C5AD57B147E4C220003F590 /* CIModalSheetDialog */,
+				7C5AD574147E4C220003F590 /* Frameworks */,
+				7C5AD572147E4C220003F590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C5AD572147E4C220003F590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C5AD571147E4C220003F590 /* CIModalSheetDialog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C5AD574147E4C220003F590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5AD575147E4C220003F590 /* Cocoa.framework */,
+				7C5AD577147E4C220003F590 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C5AD577147E4C220003F590 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5AD578147E4C220003F590 /* AppKit.framework */,
+				7C5AD579147E4C220003F590 /* CoreData.framework */,
+				7C5AD57A147E4C220003F590 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7C5AD57B147E4C220003F590 /* CIModalSheetDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7C1896A6147E4C7D00270AD7 /* Classes */,
+				7C5AD587147E4C220003F590 /* CIModalSheetDialogAppDelegate.h */,
+				7C5AD588147E4C220003F590 /* CIModalSheetDialogAppDelegate.m */,
+				7C5AD58A147E4C220003F590 /* MainMenu.xib */,
+				7C5AD57C147E4C220003F590 /* Supporting Files */,
+			);
+			path = CIModalSheetDialog;
+			sourceTree = "<group>";
+		};
+		7C5AD57C147E4C220003F590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF440E4147FB45500CA3203 /* faceleg_icon.icns */,
+				7C4A478D147E51DD004701B7 /* README.markdown */,
+				7C5AD57D147E4C220003F590 /* CIModalSheetDialog-Info.plist */,
+				7C5AD57E147E4C220003F590 /* InfoPlist.strings */,
+				7C5AD581147E4C220003F590 /* main.m */,
+				7C5AD583147E4C220003F590 /* CIModalSheetDialog-Prefix.pch */,
+				7C5AD584147E4C220003F590 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C5AD570147E4C220003F590 /* CIModalSheetDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5AD58F147E4C220003F590 /* Build configuration list for PBXNativeTarget "CIModalSheetDialog" */;
+			buildPhases = (
+				7C5AD56D147E4C220003F590 /* Sources */,
+				7C5AD56E147E4C220003F590 /* Frameworks */,
+				7C5AD56F147E4C220003F590 /* Resources */,
+				7C76DD6B147E4FD500FE1BFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CIModalSheetDialog;
+			productName = CIModalSheetDialog;
+			productReference = 7C5AD571147E4C220003F590 /* CIModalSheetDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C5AD568147E4C210003F590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ECPod;
+			};
+			buildConfigurationList = 7C5AD56B147E4C210003F590 /* Build configuration list for PBXProject "CIModalSheetDialog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C5AD566147E4C210003F590;
+			productRefGroup = 7C5AD572147E4C220003F590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C5AD570147E4C220003F590 /* CIModalSheetDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C5AD56F147E4C220003F590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5AD580147E4C220003F590 /* InfoPlist.strings in Resources */,
+				7C5AD586147E4C220003F590 /* Credits.rtf in Resources */,
+				7C5AD58C147E4C220003F590 /* MainMenu.xib in Resources */,
+				7C4A478E147E51DD004701B7 /* README.markdown in Resources */,
+				7CF440E5147FB45500CA3203 /* faceleg_icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C76DD6B147E4FD500FE1BFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n# Auto Increment Version Script\nbuildPlist=${SRCROOT}\"/CIModalSheetDialog/CIModalSheetDialog-Info.plist\"\nCFBuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBuildNumber\" $buildPlist)\nCFBuildNumber=$(($CFBuildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBuildNumber $CFBuildNumber\" $buildPlist\nCFBuildDate=$(date)\n/usr/libexec/PlistBuddy -c \"Set :CFBuildDate $CFBuildDate\" $buildPlist";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C5AD56D147E4C220003F590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C5AD582147E4C220003F590 /* main.m in Sources */,
+				7C5AD589147E4C220003F590 /* CIModalSheetDialogAppDelegate.m in Sources */,
+				7C718619147E4D100082B785 /* CIModalSheetDialog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C5AD57E147E4C220003F590 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C5AD57F147E4C220003F590 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C5AD584147E4C220003F590 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C5AD585147E4C220003F590 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7C5AD58A147E4C220003F590 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C5AD58B147E4C220003F590 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C5AD58D147E4C220003F590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7C5AD58E147E4C220003F590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7C5AD590147E4C220003F590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIModalSheetDialog/CIModalSheetDialog-Prefix.pch";
+				INFOPLIST_FILE = "CIModalSheetDialog/CIModalSheetDialog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C5AD591147E4C220003F590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CIModalSheetDialog/CIModalSheetDialog-Prefix.pch";
+				INFOPLIST_FILE = "CIModalSheetDialog/CIModalSheetDialog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C5AD56B147E4C210003F590 /* Build configuration list for PBXProject "CIModalSheetDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5AD58D147E4C220003F590 /* Debug */,
+				7C5AD58E147E4C220003F590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5AD58F147E4C220003F590 /* Build configuration list for PBXNativeTarget "CIModalSheetDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C5AD590147E4C220003F590 /* Debug */,
+				7C5AD591147E4C220003F590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C5AD568147E4C210003F590 /* Project object */;
+}
