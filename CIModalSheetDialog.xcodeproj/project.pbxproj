@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C4A478E147E51DD004701B7 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 7C4A478D147E51DD004701B7 /* README.markdown */; };
+		7C36B80D14803C050014DFEE /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 7C36B80C14803C050014DFEE /* README.markdown */; };
 		7C5AD576147E4C220003F590 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5AD575147E4C220003F590 /* Cocoa.framework */; };
 		7C5AD580147E4C220003F590 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C5AD57E147E4C220003F590 /* InfoPlist.strings */; };
 		7C5AD582147E4C220003F590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5AD581147E4C220003F590 /* main.m */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C4A478D147E51DD004701B7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		7C36B80C14803C050014DFEE /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
 		7C5AD571147E4C220003F590 /* CIModalSheetDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIModalSheetDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5AD575147E4C220003F590 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7C5AD578147E4C220003F590 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -110,8 +110,8 @@
 		7C5AD57C147E4C220003F590 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C36B80C14803C050014DFEE /* README.markdown */,
 				7CF440E4147FB45500CA3203 /* faceleg_icon.icns */,
-				7C4A478D147E51DD004701B7 /* README.markdown */,
 				7C5AD57D147E4C220003F590 /* CIModalSheetDialog-Info.plist */,
 				7C5AD57E147E4C220003F590 /* InfoPlist.strings */,
 				7C5AD581147E4C220003F590 /* main.m */,
@@ -175,8 +175,8 @@
 				7C5AD580147E4C220003F590 /* InfoPlist.strings in Resources */,
 				7C5AD586147E4C220003F590 /* Credits.rtf in Resources */,
 				7C5AD58C147E4C220003F590 /* MainMenu.xib in Resources */,
-				7C4A478E147E51DD004701B7 /* README.markdown in Resources */,
 				7CF440E5147FB45500CA3203 /* faceleg_icon.icns in Resources */,
+				7C36B80D14803C050014DFEE /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
